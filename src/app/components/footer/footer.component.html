@@ -1,0 +1,15 @@
+<section>
+  <button (click)="createBox()" [disabled]="!isKeyboardActive">Create Box</button>
+	<button
+		(click)="toggleKeyboard()"
+		[ngClass]="!isKeyboardActive ? 'green' : 'red'"
+	>
+		{{ isKeyboardActive ? 'De-activate' : 'Activate' }} Keyboard
+	</button>
+	<p *ngIf="!isKeyboardActive" class="red-text">
+		Activate the keyboard to add or move the boxes
+	</p>
+  <p *ngIf="isKeyboardActive" class="blue-text">
+    Press W-A-S-D keys or &#8593; &#8592; &#8595; &#8594; keys on keyboard to move the selected box
+  </p>
+</section>

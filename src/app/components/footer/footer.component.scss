@@ -1,0 +1,39 @@
+button {
+	display: inline-block;
+	margin: 8px;
+	padding: 8px;
+	outline: #1d3557;
+	border: 1px solid #1d3557;
+	background-color: #fff;
+	color: #1d3557;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  border: 2px solid;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.green {
+  background-color: #a8dadc;
+  color: #1d3557;
+}
+
+.red {
+  background-color: salmon;
+  color: #1d3557;
+}
+
+.red-text {
+  color: #e63946;
+  font-weight: bold;
+}
+
+.blue-text {
+  color: #1d3557;
+  font-weight: bold;
+}

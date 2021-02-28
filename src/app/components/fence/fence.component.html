@@ -1,0 +1,9 @@
+<div id="fence">
+  <app-box
+    *ngFor="let box of boxes; let i = index"
+    [id]="'box'+box.id"
+    [boxId]="box.id"
+    (click)="selectBox(i)"
+    [selected]="selectedBoxId === box.id"
+  ></app-box>
+</div>

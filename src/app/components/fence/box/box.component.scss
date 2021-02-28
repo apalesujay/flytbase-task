@@ -1,0 +1,22 @@
+.box {
+  position: fixed;
+	width: 100px;
+	height: 100px;
+	background-color: #a8dadcaf;
+	cursor: pointer;
+	text-align: center;
+	padding: 5px;
+  border: 1px solid #1d3557;
+
+	h2 {
+		position: absolute;
+		top: 30%;
+		left: 50%;
+    transform: translate(-50%, -45%);
+	}
+}
+
+.selected-box {
+	border: 2px solid #1d3557;
+	font-weight: bold;
+}
